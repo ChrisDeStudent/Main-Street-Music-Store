@@ -1,17 +1,16 @@
 # MrG-sMusicStore
-Mr. Griffin's Music Store Official Website
+Main Street Music Center
 
 <!Doctype>
 <html>
-  <strong>
-    "This is Mr.Griffin's Music Store Website!"
-  </strong>
+  
+ <img src="/ChrisDeStudent/MrG-sMusicStore/blob/master/1553_1507213153599.png" alt="The Main Music Store" />
   
   
   <strong>
   "Images"
   </strong>
-  *This is where I think images should start my dudes
+  
   <p>
   "Image/Link to new page desc. here."
   
