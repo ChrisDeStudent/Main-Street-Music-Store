@@ -4,7 +4,7 @@ Main Street Music Center
 <!Doctype>
 <html>
   
- <img src="/ChrisDeStudent/MrG-sMusicStore/blob/master/1553_1507213153599.png" alt="The Main Music Store" />
+ <img src="1553_1507213153599.png" alt="The Main Music Store" />
   
   
   <strong>
