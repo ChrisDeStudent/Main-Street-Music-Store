@@ -1,18 +1,22 @@
-# MrG-sMusicStore
-Main Street Music Center
+# Main Street Music Center
+Where great music happens!
 
 <!Doctype>
 <html>
   
- <img src="1553_1507213153599.png" alt="The Main Music Store" />
+ <img src="1553_1507213153599.png" alt="The Music Store to Rule Them All!"/>
+ <img src="1556_1507213160246.jpeg" alt="The Main Music Store" />
   
   
   <strong>
-  "Images"
+  
   </strong>
   
   <p>
-  "Image/Link to new page desc. here."
+  
+  
+  
+  </p>
   
   
   </html>
