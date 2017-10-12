@@ -5,7 +5,7 @@ Where great music happens!
 <html>
   
   <head>
-  <link rel="stylesheet" type="text/css" href="https://github.com/ChrisDeStudent/MrG-sMusicStore/blob/master/style.css"/>
+  <link rel="stylesheet" type="text/css" href="./style.css"/>
   </head>
   
  <div id="navbar">
