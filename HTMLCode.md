@@ -8,7 +8,19 @@ Where great music happens!
   <link rel="stylesheet" type="text/css" href="style.css"/>
   </head>
   
+ <div id="navbar">
+  
+ <ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="news.asp">News</a></li>
+  <li><a href="contact.asp">Contact</a></li>
+  <li><a href="about.asp">About</a></li>
+</ul>
+  
  <img src="1553_1507213153599.png" alt="The Music Store to Rule Them All!"/>
+ 
+ </div>
+ 
  <img src="1556_1507213160246.jpeg" alt="The Main Music Store" />
   
   
