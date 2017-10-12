@@ -21,7 +21,7 @@ Where great music happens!
  
  </div>
  
- <img src="1556_1507213160246.jpeg" alt="The Main Music Store" />
+ <img id="background-image" src="1556_1507213160246.jpeg" alt="The Main Music Store" />
   
   
   <strong>
