@@ -15,5 +15,7 @@ navbaricon {
   max-width:240px;
   max-height:240px;
 }
-title {position: center;
+
+title {
+  position: center;
 }
