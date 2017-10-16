@@ -9,10 +9,11 @@ ul {
   margin: 0;  padding: 0;
 }
 
-navbaricon{
+navbaricon {
   width:25%;
   height:25%;
   max-width:240px;
   max-height:240px;
 }
-  
+title {position: center;
+}
