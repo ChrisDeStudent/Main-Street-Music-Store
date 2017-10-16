@@ -6,12 +6,12 @@ backgroundimage {
 
 ul { 
   list-style-type: none;
-  margin: 0;  padding: 0;
+  margin: 0;  
+  padding: 0;
+  display: inline;
 }
 
 navbaricon {
-  width:25%;
-  height:25%;
   max-width:240px;
   max-height:240px;
 }
