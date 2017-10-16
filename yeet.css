@@ -12,5 +12,7 @@ ul {
 navbaricon{
   width:25%;
   height:25%;
+  max-width:240px;
+  max-height:240px;
 }
   
