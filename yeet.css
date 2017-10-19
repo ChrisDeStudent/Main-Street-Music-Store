@@ -1,21 +1,23 @@
 
-backgroundimage {
+.backgroundimage {
   background-position: center;
   background-size: cover;
 }
 
-ul { 
-  list-style-type: none;
-  margin: 0;  
-  padding: 0;
-  display: inline;
+ul, li { 
+  list-style-type: none; 
+  padding-left: 10em;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
 }
 
-navbaricon {
-  max-width:240px;
-  max-height:240px;
+.logo {
+  width:20%;
+  height:20%;
+  float: left;
 }
 
-title {
+h1, h2, p {
 text-align: center;
 }
