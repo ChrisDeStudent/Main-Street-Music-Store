@@ -20,4 +20,13 @@ ul, li {
 
 h1, h2, p {
 text-align: center;
+clear: both;
+}
+
+.navbar {
+background-color: #1e90ff;
+}
+
+li {
+background-color: orange;
 }
