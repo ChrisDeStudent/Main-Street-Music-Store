@@ -1,15 +1,6 @@
-
 .backgroundimage {
   background-position: center;
   background-size: cover;
-}
-
-ul, li { 
-  list-style-type: none; 
-  padding-left: 10em;
-  display: inline-block;
-  text-align: center;
-  text-decoration: none;
 }
 
 .logo {
@@ -23,10 +14,17 @@ text-align: center;
 clear: both;
 }
 
-.navbar {
-background-color: #1e90ff;
+.navbar { 
+  width: 20%;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
 }
 
-li {
-background-color: orange;
+.home, .shop, .contact, .about {
+  display: inline-block;
+  float: left;
+  width: 40%;
+  text-align: center;
+  
 }
