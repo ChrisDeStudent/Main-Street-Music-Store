@@ -26,6 +26,10 @@ font-family:'Lato';
 font-weight: 100;
 }
 
+#hanger {
+	color: #0A5787;
+}
+
 p {
 	font-weight: 175;
 	text-align: center;
@@ -34,7 +38,7 @@ p {
 	box-sizing: border-box;
 }
 
-section .row img {
+ section .row img {
   margin: 0 0 30px;
   width: 33%;
   align-items: center;
@@ -58,137 +62,46 @@ figure img {
 	left: 50px;
 }
 
-.OpenMenuButton{
-  cursor:pointer;
-  font-size:2em;
-  font-size:2em;
-  font-size:1.5rem;
-  font-weight:900;
-  word-spacing:140%;
-  letter-spacing:.25em;
-  cursor: pointer;
-  outline: none;
-  border: none;
-  border-radius: 1em;
-  color: #fff;
-  background-color: grey;
+#location {
+	text-align: center;
+	clear: both;
 }
 
-.DrawerMenu{
-  position:fixed;
-  z-index:99;
-  width:100vw;
-  height:100vh;
-  top:0;
-  bottom:0;
-  -webkit-transform:translateX(-100%);
-          transform:translateX(-100%);
-  -webkit-transition:-webkit-transform 0.5s cubic-bezier(0.4, 0.0, 0.2, 1);
-  transition:-webkit-transform 0.5s cubic-bezier(0.4, 0.0, 0.2, 1);
-  transition:transform 0.5s cubic-bezier(0.4, 0.0, 0.2, 1);
-  transition:transform 0.5s cubic-bezier(0.4, 0.0, 0.2, 1), -webkit-transform 0.5s cubic-bezier(0.4, 0.0, 0.2, 1);
-  display:-ms-grid;
-  display:grid;
-  grid-template-areas:'MENU OVERLAY';
-  -ms-grid-columns:15fr 5fr;
-      grid-template-columns:15fr 5fr;
-  
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
 }
 
-
-#DrawerMenuTrigger:checked ~ .DrawerMenu{
-  -webkit-transform:none;
-          transform:none;
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
 }
 
-
-@media (min-width: 30em){
-
-  .DrawerMenu{
-    -ms-grid-columns:5fr 10fr;
-        grid-template-columns:5fr 10fr;
-  }
+.sidenav a:hover {
+    color: #f1f1f1;
 }
 
-
-.MenuContainer{
-  contain:content;
-  grid-area:'MENU';
-  background-color:black;
-  box-sizing:border-box;
-  padding:2rem;
-  overflow:auto;
-  -webkit-overflow-scrolling:touch;
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
 }
 
-
-@media (min-width: 30em){
-
-  .MenuContainer{
-    min-width:400px;
-  }
-}
-
-
-.Menu{
-  display:-webkit-box;
-  display:-ms-flexbox;
-  display:flex;
-  -ms-flex-flow:column wrap;
-      flex-flow:column wrap;
-  -webkit-transform:translateX(-30%);
-          transform:translateX(-30%);
-  opacity:0;
-  -webkit-transition:all 500ms cubic-bezier(0.4, 0.0, 0.2, 1);
-  transition:all 500ms cubic-bezier(0.4, 0.0, 0.2, 1);
-  -webkit-transition-delay:0;
-          transition-delay:0;
-}
-
-
-#DrawerMenuTrigger:checked ~ .DrawerMenu .Menu{
-  -webkit-transform:none;
-          transform:none;
-  opacity:1;
-  -webkit-transition-delay:300ms;
-          transition-delay:300ms;
-}
-
-
-.Menu a{
-  text-decoration:none;
-  color:rgba(255, 255, 255, .50196);
-  display:block;
-  padding:1rem 0;
-}
-
-
-.Menu a:hover{
-  color:#69F0AE;
-}
-
-
-.Menu > * + *{
-  border-top:1px solid rgba(255, 255, 255, .1);
-}
-
-
-.MenuOverlay{
-  display:block;
-  grid-area:'OVERLAY';  
-}
-
-
-.Menu__Title{
-  color:#FFF;
-  font-size:3em;
-  font-size:3em;
-  font-size:2rem;
-  margin-top:0;
-}
-
-.electricguitardisplay {
-margin: auto;	
-width: 100%;
-text-align: center;
+@media screen and (max-height: 959px) {
+  .sidenav {padding-top: 2em;}
+  .sidenav a {font-size: 2em;}
 }
