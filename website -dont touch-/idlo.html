@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+    <meta charset="UTF-8">
+  
+    <title>Main Street Music</title>
+  
+    <meta name="viewport" content= "width=device-width, initial-scale=1.0" />﻿
+  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+  
+    <link rel="stylesheet" href="css/style.css">
+  
+</head>
+
+<body>
+
+<html>
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="main.css">
+  
+<link href='https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900' rel='stylesheet' type='text/css'>  
+
+</head>
+  
+<div class="page-title">  
+  
+<h1><b>Main Street Music Center</b></h1>  
+
+</div>  
+  
+<h2 id="hanger" ><b> Welcome to Main Street Music's Website!</b></h2> 
+  
+<div id="mySidenav" class="sidenav">
+
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	  <h2> Where great music happens! </h2>
+      <a href="index.html">Home</a>
+      <a href="cato.html">Shop</a>
+      <a href="contact.html">Contact</a>
+      <a href="about.html">About</a>
+	  <a href="location.html">Location</a>
+	  <img id="logo" src="logo.png" alt="The Music Store to Rule Them All!"/>
+</div>
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "33%";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+<div>  
+
+ <img src="1556_1507213160246.jpeg" alt="The Main Music Store" />
+  
+</div>
+
+<div id="container">
+		
+		<section id="leftcolumn">
+			<img src="stock/Ukes2.jpg">
+		</section>
+		
+		<aside id="rightcolumn">
+		
+			<div class="price">
+			
+			  <h3>$00.00</h3>
+			  
+			</div>
+			
+			  <div class="desc">
+			  
+			  <button class="accordion">Section 1</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion">Section 2</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion">Section 3</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].onclick = function(){
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    }
+}
+</script>
+		</aside>
+		</div>
+	</div>
+ 
+ <p>&copy; Main Street Music Center </p>
+  
+</html>
+  
+</body>
+
+</html>
