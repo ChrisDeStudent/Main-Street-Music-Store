@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html >
 <head>
-  <meta charset="UTF-8">
-  <title>A Pen by  Austin</title>
-  
-  
-  
-      <link rel="stylesheet" href="css/style.css">
 
+  <meta charset="UTF-8">
+
+      <link rel="stylesheet" href="css/style.css">
+	  
+	  <meta name="viewport" content= "width=device-width, initial-scale=1.0" />﻿
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
   
 </head>
 
 <body>
-  <html>
+
+<html>
 
 <head>
 
@@ -30,40 +32,35 @@
   
 <h2> Welcome to Main Street Music's Website! </h2>  
   
-<!-- Credited to Mattia Astorino -->
-  
-<img class="back" src="back.png" />
-  
-<div>  
-  
-<label for="DrawerMenuTrigger" class="OpenMenuButton">OPEN MENU</label>
+<div id="mySidenav" class="sidenav">
 
-
-<input type="checkbox" id="DrawerMenuTrigger" hidden>
-<aside class="DrawerMenu">
-  
-  <div class="MenuContainer">
-    <nav class="Menu">
-      
-      <h2 class="Menu__Title">Where great music happens!</h2>
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	  <h2> Where great music happens! </h2>
       <a href="index.html">Home</a>
-      <a href="shop.html">Shop</a>
-      <a href="contact">Contact</a>
+      <a href="cato.html">Shop</a>
+      <a href="contact.html">Contact</a>
       <a href="about.html">About</a>
+	  <a href="location.html">Location</a>
 	  <img id="logo" src="logo.png" alt="The Music Store to Rule Them All!"/>
-    </nav>
-  </div>
-  
-  <label for="DrawerMenuTrigger" class="MenuOverlay"></label>
-</aside>  
+</div>
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "33%";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
 
  <img src="1556_1507213160246.jpeg" alt="The Main Music Store" />
   
 </div> 
  
 <h2>Welcome to the about page.</h2>
-
-<p>This is where you can find Info about Mr. Griffin and his Music Store!!</p>
  
  <p>&copy; Main Street Music Center </p>
 	
