@@ -1,18 +1,14 @@
 <!DOCTYPE html>
 <html >
 <head>
-  
   <meta charset="UTF-8">
-  
   <title>Main Street Music</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
 
-  <link rel="stylesheet" href="css/style.css">
   
-  <meta name="viewport" content= "width=device-width, initial-scale=1.0" />﻿
-  
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
-  
-
 </head>
 
 <body>
@@ -28,47 +24,49 @@
   
 <div class="page-title">  
   
-<h1><b>Main Street Music Center</b></h1>  
+  <h1>Main Street Music Center</h1>  
 
 </div>  
   
-<h2><b> Welcome to Main Street Music's Website!</b> </h2>  
+<h2> Welcome to Main Street Music's Website! </h2>  
+  
+<!-- Credited to Mattia Astorino -->
+  
+<img class="back" src="back.png" />
+  
+<div>  
+  
+<label for="DrawerMenuTrigger" class="OpenMenuButton">OPEN MENU</label>
 
-<body>
 
-<div id="mySidenav" class="sidenav">
+<input type="checkbox" id="DrawerMenuTrigger" hidden>
 
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-	  <h2> Where great music happens! </h2>
+<aside class="DrawerMenu">
+  
+  <div class="MenuContainer">
+    <nav class="Menu">
+      <h2 class="Menu__Title">Where great music happens!</h2>
       <a href="index.html">Home</a>
-      <a href="cato.html">Shop</a>
+      <a href="shop.html">Shop</a>
       <a href="contact.html">Contact</a>
       <a href="about.html">About</a>
-	  <a href="location.html">Location</a>
 	  <img id="logo" src="logo.png" alt="The Music Store to Rule Them All!"/>
-</div>
-
-<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
-
-<script>
-function openNav() {
-    document.getElementById("mySidenav").style.width = "33%";
-}
-
-function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-}
-</script>
-
-<div>  
+    </nav>
+  </div>
+  
+  <label for="DrawerMenuTrigger" class="MenuOverlay"></label>
+  
+</aside>  
 
  <img src="1556_1507213160246.jpeg" alt="The Main Music Store" />
   
 </div>
   
 <p>Main Street Music Center provides a great selection of new and used <br/>music instruments and accessories along with in-house lessons<br/> for the beginner musician.</p>
+  
 
-<p>&copy; Main Street Music Center </p>
+ 
+ <p>&copy; Main Street Music Center </p>
   
 </html>
   
