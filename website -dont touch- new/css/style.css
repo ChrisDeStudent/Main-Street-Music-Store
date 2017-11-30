@@ -1,0 +1,177 @@
+.backgroundimage{
+  background-position:center;
+  background-size:cover;
+}
+
+#logo{
+  z-index: -1;
+  top: 300px;
+}
+
+.back {
+  z-index: -2;
+  position: fixed;
+  display: inline;
+  width: 100%;
+  height: 100%;
+  bottom: 0px;
+  left: 0px;
+  position: center;
+}
+
+h1, h2{
+text-align:center;
+clear:both;
+font-family:'Lato';
+font-weight: 100;
+}
+
+#hanger {
+	color: #0A5787;
+}
+
+p {
+	font-weight: 175;
+	text-align: center;
+	clear: left;
+	clear: right;
+	box-sizing: border-box;
+}
+
+ section .row img {
+  margin: 0 0 30px;
+  width: 33%;
+  align-items: center;
+}
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+figure img {
+	position: relative;
+	left: 200px;
+}
+
+.floor {
+	text-align: center;
+	position: center;
+	box-sizing: border-box;
+	display: inline;
+	clear: both;
+	left: 50px;
+}
+
+#location {
+	text-align: center;
+	clear: both;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 959px) {
+  .sidenav {padding-top: 2em;}
+  .sidenav a {font-size: 2em;}
+}
+#container{
+	width:960px;
+	margin:0px auto;
+}
+
+#leftcolumn{
+	width:700px;
+	float:left;
+	top: 5em;
+}
+
+#rightcolumn{
+	width:260px;
+	float:left;
+	top: 5em;
+	
+}
+
+@media screen and (max-width:959px){
+	#container{
+		width:100%;
+	}
+	#leftcolumn{
+		width:70%;
+	}
+	#rightcolumn{
+		width:30%;
+	}
+	img{
+		max-width:100%;
+	}
+}
+
+@media screen and (max-width:640px){
+	#leftcolumn{
+		width:100%;
+	}
+	#rightcolumn{
+		width:100%;
+	}
+}
+
+@media screen and (max-width:320px){
+	#container{
+		width:320px;
+	}
+}
+
+button.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #ccc; 
+}
+
+div.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+}
