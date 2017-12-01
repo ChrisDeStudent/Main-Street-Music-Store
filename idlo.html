@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html >
+
 <head>
-  <meta charset="UTF-8">
+
+    <meta charset="UTF-8">
   
-  <title>Main Street Music</title>
+    <title>Main Street Music</title>
   
     <meta name="viewport" content= "width=device-width, initial-scale=1.0" />﻿
   
@@ -14,9 +16,12 @@
 </head>
 
 <body>
-  <html>
+
+<html>
 
 <head>
+
+<link rel="stylesheet" type="text/css" href="main.css">
   
 <link href='https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900' rel='stylesheet' type='text/css'>  
 
@@ -28,7 +33,7 @@
 
 </div>  
   
-<h2><b> Welcome to Main Street Music's Website!</b> </h2> 
+<h2 id="hanger"><b> Welcome to Main Street Music's Website!</b></h2> 
   
 <div id="mySidenav" class="sidenav">
 
@@ -60,36 +65,53 @@ function closeNav() {
   
 </div>
 
-<div id="productpage">
- 
-<div class="productimage">
-
-<img src="stock/ErnieBallStrings">
-
-</div> 
-
-<div id="productdesc">
-
-<input id="toggle" type="checkbox" checked>
-
-  <label for="toggle">More info...</label>
-  
-  <div id="expand">
-  
-    <section>
-	
-      <p>Ernie Ball Regular Slinky Electric Strings are our top selling set, and are favored by many musicians around the globe. 
-	  Regular Slinky strings are played by Eric Clapton, John Mayer, Steve Vai and legions of guitar players worldwide. 
-	  These strings are precision manufactured to the highest standards and most exacting specifications to ensure consistency, optimum performance, and long life. 
-	  Regular Slinky wound strings are made from nickel plated steel wire wrapped around a hex shaped steel core wire. 
-	  The plain strings are made of specially tempered tin plated high carbon steel producing a well balanced tone for your guitar. 
-	  Gauges .010, .013, .017, .026, .036, .046</p>
-	  
-    </section>
-
+<div id="container">
+		
+		<section id="leftcolumn">
+		
+			<img src="stock/Ukes2.jpg">
+			
+		</section>
+		
+		<aside id="rightcolumn">
+		
+			<div class="price">
+			
+			  <h3>$00.00</h3>
+			  
+			</div>
+			
+			  <div class="desc">
+			  
+			  <button class="accordion">Section 1</button>
+<div class="panel">
+  <p></p>
 </div>
 
+<button class="accordion">Section 2</button>
+<div class="panel">
+  <p></p>
 </div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].onclick = function(){
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    }
+}
+</script>
+		</aside>
+		</div>
+	</div>
  
  <p>&copy; Main Street Music Center </p>
   
